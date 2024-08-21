@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizZone</title>
+    <style>
+        
+
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url(https://mrwallpaper.com/images/hd/study-digital-art-mdvztdvpqpto6n63.jpg);
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    #home-container {
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #333;
+        font-family: cursive;
+    }
+
+    p {
+        margin-bottom: 30px;
+        font-size: 18px;
+        color: #666;
+        font-family: cursive;
+    }
+
+    #start-quiz {
+        background-color: #c574b1;
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        font-family: cursive;
+    }
+
+    #start-quiz:hover {
+        background-color: #713c6a;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="home-container">
+        <h1>Welcome to the QuizZone!</h1>
+        <p>Check your General Knowledge with our Quiz.    </p>
+        <button id="start-quiz" onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <script>
+
+    function startQuiz() {
+        window.location.href = "quiz.html"; 
+    }
+
+    </script>
+</body>
+</html>
